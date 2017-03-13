@@ -18,7 +18,7 @@ public class ConfigClientApplication {
 @RefreshScope
 class FooController {
 
-	@Value("${config.foo}")
+	@Value("${configuration.foo}")
 	private String foo;
 	
 	@RequestMapping("/foo")

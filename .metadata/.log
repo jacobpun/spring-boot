@@ -8263,3 +8263,346 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
 !SUBENTRY 1 org.eclipse.core.expressions 4 201 2017-03-12 22:18:01.887
 !MESSAGE No property tester contributes a property org.eclipse.core.resources.contentTypeId to type class org.eclipse.ui.part.FileEditorInput
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:58.608
+!MESSAGE Filter file /home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:58.678
+!MESSAGE Reloading core EnvironmentDemo
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:58.686
+!MESSAGE Added core EnvironmentDemo with classpath /home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/classes:/home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/classes:/home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/test-classes:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/1.5.2.RELEASE/spring-boot-starter-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/home/punnoose/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-actuator/1.5.2.RELEASE/spring-boot-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.2.RELEASE/spring-boot-starter-tomcat-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.jar:/home/punnoose/.m2/repository/org/hibernate/hibernate-validator/5.3.4.Final/hibernate-validator-5.3.4.Final.jar:/home/punnoose/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/punnoose/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/punnoose/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar:/home/punnoose/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/punnoose/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/punnoose/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/punnoose/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/punnoose/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/punnoose/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/punnoose/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/home/punnoose/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/punnoose/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/punnoose/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/home/punnoose/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/punnoose/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/tmp/infinitest.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:58.689
+!MESSAGE EnvironmentDemo Files changed: [/home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/classes/org/pk/EnvironmentDemoApplication.class, /home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/test-classes/org/pk/EnvironmentDemoApplicationTests.class, /home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/classes/org/pk/CompanyProperties.class, /home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/classes/org/pk/Address.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:58.907
+!MESSAGE EnvironmentDemo Running tests: [org.pk.EnvironmentDemoApplicationTests]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:58.912
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /home/punnoose/dev/workspace/spring-boot/EnvironmentDemo
+Environment: {XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1001/2060, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, IM_CONFIG_PHASE=1, COMPIZ_CONFIG_PROFILE=ubuntu, GDMSESSION=ubuntu, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, PWD=/home/punnoose, SESSIONTYPE=gnome-session, GIO_LAUNCHED_DESKTOP_FILE_PID=4355, GTK_IM_MODULE=ibus, XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/punnoose, XDG_SESSION_TYPE=x11, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, XDG_MENU_PREFIX=gnome-, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, XDG_CURRENT_DESKTOP=Unity, PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, GDM_LANG=en_US, XAUTHORITY=/home/punnoose/.Xauthority, XDG_SEAT=seat0, XDG_SESSION_ID=c2, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, XDG_VTNR=7, GNOME_KEYRING_CONTROL=, GTK_MODULES=gail:atk-bridge:unity-gtk-module, SHLVL=0, GTK2_MODULES=overlay-scrollbar, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, COMPIZ_BIN_PATH=/usr/bin/, JOB=unity-settings-daemon, UPSTART_JOB=unity7, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop, QT_IM_MODULE=ibus, QT_QPA_PLATFORMTHEME=appmenu-qt5, GIO_LAUNCHED_DESKTOP_FILE=/home/punnoose/.local/share/applications/Eclipse.desktop.desktop, LOGNAME=punnoose, UPSTART_INSTANCE=, SESSION=ubuntu, GPG_AGENT_INFO=/home/punnoose/.gnupg/S.gpg-agent:0:1, XMODIFIERS=@im=ibus, SSH_AUTH_SOCK=/run/user/1001/keyring/ssh, UPSTART_EVENTS=xsession started, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-wM2x2KqAy1, SHELL=/bin/bash, GNOME_KEYRING_PID=, LANGUAGE=en_US, QT_ACCESSIBILITY=1, CLASSPATH=/home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/classes:/home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/classes:/home/punnoose/dev/workspace/spring-boot/EnvironmentDemo/target/test-classes:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/1.5.2.RELEASE/spring-boot-starter-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/home/punnoose/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-actuator/1.5.2.RELEASE/spring-boot-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.2.RELEASE/spring-boot-starter-tomcat-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.jar:/home/punnoose/.m2/repository/org/hibernate/hibernate-validator/5.3.4.Final/hibernate-validator-5.3.4.Final.jar:/home/punnoose/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/punnoose/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/punnoose/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar:/home/punnoose/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/punnoose/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/punnoose/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/punnoose/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/punnoose/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/punnoose/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/punnoose/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/home/punnoose/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/punnoose/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/punnoose/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/home/punnoose/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/punnoose/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/tmp/infinitest.jar, DESKTOP_SESSION=ubuntu, INSTANCE=, DISPLAY=:0, CLUTTER_IM_MODULE=xim, USER=punnoose, HOME=/home/punnoose, QT4_IM_MODULE=xim, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, XDG_SESSION_DESKTOP=ubuntu, XDG_RUNTIME_DIR=/run/user/1001, LIBVIRT_DEFAULT_URI=qemu:///system, LANG=en_US.UTF-8}
+Command: [/home/punnoose/dev/tools/jdk8/jdk1.8.0/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 35614]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.355
+!MESSAGE Filter file /home/punnoose/dev/workspace/spring-boot/config-client/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.357
+!MESSAGE Reloading core config-client
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.358
+!MESSAGE Added core config-client with classpath /home/punnoose/dev/workspace/spring-boot/config-client/target/classes:/home/punnoose/dev/workspace/spring-boot/config-client/target/classes:/home/punnoose/dev/workspace/spring-boot/config-client/target/test-classes:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/home/punnoose/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.2.RELEASE/spring-boot-starter-tomcat-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.jar:/home/punnoose/.m2/repository/org/hibernate/hibernate-validator/5.3.4.Final/hibernate-validator-5.3.4.Final.jar:/home/punnoose/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/punnoose/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/punnoose/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar:/home/punnoose/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-config-client/1.2.2.RELEASE/spring-cloud-config-client-1.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/security/spring-security-crypto/4.2.2.RELEASE/spring-security-crypto-4.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-context/1.1.7.RELEASE/spring-cloud-context-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/punnoose/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/punnoose/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/punnoose/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/punnoose/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/punnoose/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/punnoose/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/home/punnoose/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/punnoose/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/punnoose/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/home/punnoose/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/punnoose/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/1.5.2.RELEASE/spring-boot-starter-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-actuator/1.5.2.RELEASE/spring-boot-actuator-1.5.2.RELEASE.jar:/tmp/infinitest.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.360
+!MESSAGE config-client Files changed: [/home/punnoose/dev/workspace/spring-boot/config-client/target/classes/org/pk/ConfigClientApplication.class, /home/punnoose/dev/workspace/spring-boot/config-client/target/classes/org/pk/FooController.class, /home/punnoose/dev/workspace/spring-boot/config-client/target/test-classes/org/pk/ConfigClientApplicationTests.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.381
+!MESSAGE config-client Running tests: [org.pk.ConfigClientApplicationTests]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.383
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /home/punnoose/dev/workspace/spring-boot/config-client
+Environment: {XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1001/2060, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, IM_CONFIG_PHASE=1, COMPIZ_CONFIG_PROFILE=ubuntu, GDMSESSION=ubuntu, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, PWD=/home/punnoose, SESSIONTYPE=gnome-session, GIO_LAUNCHED_DESKTOP_FILE_PID=4355, GTK_IM_MODULE=ibus, XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/punnoose, XDG_SESSION_TYPE=x11, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, XDG_MENU_PREFIX=gnome-, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, XDG_CURRENT_DESKTOP=Unity, PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, GDM_LANG=en_US, XAUTHORITY=/home/punnoose/.Xauthority, XDG_SEAT=seat0, XDG_SESSION_ID=c2, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, XDG_VTNR=7, GNOME_KEYRING_CONTROL=, GTK_MODULES=gail:atk-bridge:unity-gtk-module, SHLVL=0, GTK2_MODULES=overlay-scrollbar, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, COMPIZ_BIN_PATH=/usr/bin/, JOB=unity-settings-daemon, UPSTART_JOB=unity7, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop, QT_IM_MODULE=ibus, QT_QPA_PLATFORMTHEME=appmenu-qt5, GIO_LAUNCHED_DESKTOP_FILE=/home/punnoose/.local/share/applications/Eclipse.desktop.desktop, LOGNAME=punnoose, UPSTART_INSTANCE=, SESSION=ubuntu, GPG_AGENT_INFO=/home/punnoose/.gnupg/S.gpg-agent:0:1, XMODIFIERS=@im=ibus, SSH_AUTH_SOCK=/run/user/1001/keyring/ssh, UPSTART_EVENTS=xsession started, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-wM2x2KqAy1, SHELL=/bin/bash, GNOME_KEYRING_PID=, LANGUAGE=en_US, QT_ACCESSIBILITY=1, CLASSPATH=/home/punnoose/dev/workspace/spring-boot/config-client/target/classes:/home/punnoose/dev/workspace/spring-boot/config-client/target/classes:/home/punnoose/dev/workspace/spring-boot/config-client/target/test-classes:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/home/punnoose/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.2.RELEASE/spring-boot-starter-tomcat-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.jar:/home/punnoose/.m2/repository/org/hibernate/hibernate-validator/5.3.4.Final/hibernate-validator-5.3.4.Final.jar:/home/punnoose/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/punnoose/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/punnoose/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar:/home/punnoose/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-config-client/1.2.2.RELEASE/spring-cloud-config-client-1.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/security/spring-security-crypto/4.2.2.RELEASE/spring-security-crypto-4.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-context/1.1.7.RELEASE/spring-cloud-context-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/punnoose/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/punnoose/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/punnoose/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/punnoose/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/punnoose/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/punnoose/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/home/punnoose/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/punnoose/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/punnoose/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/home/punnoose/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/punnoose/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/1.5.2.RELEASE/spring-boot-starter-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-actuator/1.5.2.RELEASE/spring-boot-actuator-1.5.2.RELEASE.jar:/tmp/infinitest.jar, DESKTOP_SESSION=ubuntu, INSTANCE=, DISPLAY=:0, CLUTTER_IM_MODULE=xim, USER=punnoose, HOME=/home/punnoose, QT4_IM_MODULE=xim, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, XDG_SESSION_DESKTOP=ubuntu, XDG_RUNTIME_DIR=/run/user/1001, LIBVIRT_DEFAULT_URI=qemu:///system, LANG=en_US.UTF-8}
+Command: [/home/punnoose/dev/tools/jdk8/jdk1.8.0/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 45203]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.829
+!MESSAGE Filter file /home/punnoose/dev/workspace/spring-boot/config-server/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.831
+!MESSAGE Reloading core config-server
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.832
+!MESSAGE Added core config-server with classpath /home/punnoose/dev/workspace/spring-boot/config-server/target/classes:/home/punnoose/dev/workspace/spring-boot/config-server/target/classes:/home/punnoose/dev/workspace/spring-boot/config-server/target/test-classes:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/home/punnoose/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.2.RELEASE/spring-boot-starter-tomcat-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.jar:/home/punnoose/.m2/repository/org/hibernate/hibernate-validator/5.3.4.Final/hibernate-validator-5.3.4.Final.jar:/home/punnoose/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/punnoose/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/punnoose/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar:/home/punnoose/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/1.5.2.RELEASE/spring-boot-starter-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-actuator/1.5.2.RELEASE/spring-boot-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/punnoose/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/punnoose/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/punnoose/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/punnoose/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/punnoose/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/punnoose/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/home/punnoose/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/punnoose/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/punnoose/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/home/punnoose/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/punnoose/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/1.2.2.RELEASE/spring-cloud-starter-config-1.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-starter/1.1.7.RELEASE/spring-cloud-starter-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-context/1.1.7.RELEASE/spring-cloud-context-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-config-client/1.2.2.RELEASE/spring-cloud-config-client-1.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-config-server/1.2.2.RELEASE/spring-cloud-config-server-1.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/security/spring-security-crypto/4.2.2.RELEASE/spring-security-crypto-4.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/security/spring-security-rsa/1.0.3.RELEASE/spring-security-rsa-1.0.3.RELEASE.jar:/home/punnoose/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.jar:/home/punnoose/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar:/home/punnoose/.m2/repository/org/eclipse/jgit/org.eclipse.jgit/3.5.3.201412180710-r/org.eclipse.jgit-3.5.3.201412180710-r.jar:/home/punnoose/.m2/repository/com/jcraft/jsch/0.1.50/jsch-0.1.50.jar:/home/punnoose/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.jar:/home/punnoose/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/punnoose/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/punnoose/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/punnoose/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/tmp/infinitest.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.833
+!MESSAGE config-server Files changed: [/home/punnoose/dev/workspace/spring-boot/config-server/target/test-classes/org/pk/ConfigServerApplicationTests.class, /home/punnoose/dev/workspace/spring-boot/config-server/target/classes/org/pk/ConfigServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.850
+!MESSAGE config-server Running tests: [org.pk.ConfigServerApplicationTests]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:24:59.852
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /home/punnoose/dev/workspace/spring-boot/config-server
+Environment: {XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0, UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1001/2060, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, IM_CONFIG_PHASE=1, COMPIZ_CONFIG_PROFILE=ubuntu, GDMSESSION=ubuntu, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, PWD=/home/punnoose, SESSIONTYPE=gnome-session, GIO_LAUNCHED_DESKTOP_FILE_PID=4355, GTK_IM_MODULE=ibus, XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/punnoose, XDG_SESSION_TYPE=x11, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, XDG_MENU_PREFIX=gnome-, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg, XDG_CURRENT_DESKTOP=Unity, PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin, QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1, GDM_LANG=en_US, XAUTHORITY=/home/punnoose/.Xauthority, XDG_SEAT=seat0, XDG_SESSION_ID=c2, XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0, XDG_VTNR=7, GNOME_KEYRING_CONTROL=, GTK_MODULES=gail:atk-bridge:unity-gtk-module, SHLVL=0, GTK2_MODULES=overlay-scrollbar, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, COMPIZ_BIN_PATH=/usr/bin/, JOB=unity-settings-daemon, UPSTART_JOB=unity7, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop, QT_IM_MODULE=ibus, QT_QPA_PLATFORMTHEME=appmenu-qt5, GIO_LAUNCHED_DESKTOP_FILE=/home/punnoose/.local/share/applications/Eclipse.desktop.desktop, LOGNAME=punnoose, UPSTART_INSTANCE=, SESSION=ubuntu, GPG_AGENT_INFO=/home/punnoose/.gnupg/S.gpg-agent:0:1, XMODIFIERS=@im=ibus, SSH_AUTH_SOCK=/run/user/1001/keyring/ssh, UPSTART_EVENTS=xsession started, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-wM2x2KqAy1, SHELL=/bin/bash, GNOME_KEYRING_PID=, LANGUAGE=en_US, QT_ACCESSIBILITY=1, CLASSPATH=/home/punnoose/dev/workspace/spring-boot/config-server/target/classes:/home/punnoose/dev/workspace/spring-boot/config-server/target/classes:/home/punnoose/dev/workspace/spring-boot/config-server/target/test-classes:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.2.RELEASE/spring-boot-starter-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.2.RELEASE/spring-boot-starter-logging-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/home/punnoose/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/home/punnoose/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.24/jcl-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/jul-to-slf4j/1.7.24/jul-to-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.24/log4j-over-slf4j-1.7.24.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.2.RELEASE/spring-boot-starter-tomcat-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.11/tomcat-embed-el-8.5.11.jar:/home/punnoose/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.11/tomcat-embed-websocket-8.5.11.jar:/home/punnoose/.m2/repository/org/hibernate/hibernate-validator/5.3.4.Final/hibernate-validator-5.3.4.Final.jar:/home/punnoose/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/punnoose/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/punnoose/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/home/punnoose/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar:/home/punnoose/.m2/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/1.5.2.RELEASE/spring-boot-starter-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-actuator/1.5.2.RELEASE/spring-boot-actuator-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.2.RELEASE/spring-boot-starter-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.2.RELEASE/spring-boot-test-autoconfigure-1.5.2.RELEASE.jar:/home/punnoose/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/punnoose/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/punnoose/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/punnoose/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/punnoose/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/punnoose/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/punnoose/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/home/punnoose/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/punnoose/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/punnoose/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/punnoose/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/home/punnoose/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/punnoose/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/spring-test/4.3.7.RELEASE/spring-test-4.3.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/1.2.2.RELEASE/spring-cloud-starter-config-1.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-starter/1.1.7.RELEASE/spring-cloud-starter-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-context/1.1.7.RELEASE/spring-cloud-context-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-config-client/1.2.2.RELEASE/spring-cloud-config-client-1.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/cloud/spring-cloud-config-server/1.2.2.RELEASE/spring-cloud-config-server-1.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/security/spring-security-crypto/4.2.2.RELEASE/spring-security-crypto-4.2.2.RELEASE.jar:/home/punnoose/.m2/repository/org/springframework/security/spring-security-rsa/1.0.3.RELEASE/spring-security-rsa-1.0.3.RELEASE.jar:/home/punnoose/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.jar:/home/punnoose/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar:/home/punnoose/.m2/repository/org/eclipse/jgit/org.eclipse.jgit/3.5.3.201412180710-r/org.eclipse.jgit-3.5.3.201412180710-r.jar:/home/punnoose/.m2/repository/com/jcraft/jsch/0.1.50/jsch-0.1.50.jar:/home/punnoose/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.jar:/home/punnoose/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/punnoose/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/punnoose/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/punnoose/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/tmp/infinitest.jar, DESKTOP_SESSION=ubuntu, INSTANCE=, DISPLAY=:0, CLUTTER_IM_MODULE=xim, USER=punnoose, HOME=/home/punnoose, QT4_IM_MODULE=xim, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, XDG_SESSION_DESKTOP=ubuntu, XDG_RUNTIME_DIR=/run/user/1001, LIBVIRT_DEFAULT_URI=qemu:///system, LANG=en_US.UTF-8}
+Command: [/home/punnoose/dev/tools/jdk8/jdk1.8.0/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 42007]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:25:20.074
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-03-12 22:25:25.099
+!MESSAGE config-client Files changed: [/home/punnoose/dev/workspace/spring-boot/config-client/target/classes/org/pk/ConfigClientApplication.class, /home/punnoose/dev/workspace/spring-boot/config-client/target/classes/org/pk/FooController.class]
+
+!ENTRY org.eclipse.jface 2 0 2017-03-12 22:29:08.236
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:08.236
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a79768e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c569309,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2017-03-12 22:29:58.677
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.677
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36cccb77,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57342bc9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.677
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f420dbc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3bf1f9d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.677
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@993d216,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10e11f82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.677
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47c5a743,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52cad587,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.677
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1684485,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@646a787b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.678
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a0c06be,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b8ea919,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13d99a34,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.678
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32ffb671,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@265bb60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.678
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5cf18ff2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3222cedf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.678
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b3bac30,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6607f77c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.678
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7aa58912,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10384a3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.678
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.server,Run Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39a5ec5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9ca3ba6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ab907c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.678
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c12144f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@563f9162,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-12 22:29:58.679
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66b9ee78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46f36d58,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
