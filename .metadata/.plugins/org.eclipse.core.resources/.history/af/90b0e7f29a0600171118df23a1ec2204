@@ -1,0 +1,86 @@
+package org.pk;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.boot.context.properties.NestedConfigurationProperty;
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Component;
+
+@SpringBootApplication
+@EnableConfigurationProperties
+public class EnvironmentDemoApplication {
+
+	@Value("${company.name}")
+	void setCompanyName(String companyName) {
+		System.out.println("Setting company name: " + companyName);
+	}
+	
+	@Autowired
+	void setEnvironment(Environment e) {
+		System.out.println("Setting company name: " + e.getProperty("company.name"));
+	}
+	
+	@Autowired
+	void setCompany(CompanyProperties c) {
+		System.out.println("Company Name is: " + c.getName());
+	}
+	
+	public static void main(String[] args) {
+		SpringApplication.run(EnvironmentDemoApplication.class, args);
+	}
+}
+
+@Component
+@ConfigurationProperties("company")
+class CompanyProperties {
+	private String name;
+	
+	@NestedConfigurationProperty
+	private Address address;
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+}
+
+class Address {
+	private String street;
+	private String city;
+	private String state;
+
+	public Address(){
+		
+	}
+	
+	public String getStreet() {
+		return street;
+	}
+	public void setStreet(String street) {
+		this.street = street;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+}

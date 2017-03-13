@@ -1,0 +1,11 @@
+1459722414370	Rename type 'UserResource'
+1459722426897	Rename package 'org.pk.resource'
+1459722789944	Encapsulate field 'id'
+1459722794564	Encapsulate field 'email'
+1459722798598	Encapsulate field 'passwordHash'
+1459722804352	Encapsulate field 'role'
+1459723411716	Encapsulate field 'email'
+1459723414260	Encapsulate field 'password'
+1459723423204	Encapsulate field 'role'
+1460222141636	Move compilation unit
+1460222182161	Delete element

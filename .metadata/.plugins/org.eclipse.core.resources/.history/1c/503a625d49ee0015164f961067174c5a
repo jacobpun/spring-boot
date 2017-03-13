@@ -1,0 +1,24 @@
+package org.pk;
+
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.data.geo.Point;
+
+@SpringBootApplication
+public class StoreSearchApplication {
+	@Bean
+	InitializingBean seetDatabase(StoreRepository repo) {
+		return () -> {
+			repo.save(new Store("Five Guys Burgers", new Point(40.712784, -74.005941))); // NY, NY
+			repo.save(new Store("Ikea", new Point(42.765366, -71.467566))); // Nashua, NJ
+			repo.save(new Store("Target", new Point(42.360082, -71.058880))); // Boston, MA
+			repo.save(new Store("CVS Pharmacy", new Point(42.504716, -71.195621))); // Burlington, MA
+		};
+	}
+	
+	public static void main(String[] args) {
+		SpringApplication.run(StoreSearchApplication.class, args);
+	}
+}

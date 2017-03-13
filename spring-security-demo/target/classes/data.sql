@@ -1,0 +1,2 @@
+INSERT INTO User(id, email,password_hash, role) VALUES (1, 'user_create@example.com', '$2a$10$QMPNYYjpJ7bO67kV.chS7esz/.CcWQQxtvoC/BLzu2MBnM1LUtRy.', 'CREATE_USER')
+INSERT INTO User(id, email,password_hash, role) VALUES (2, 'admin@example.com', '$2a$10$QMPNYYjpJ7bO67kV.chS7esz/.CcWQQxtvoC/BLzu2MBnM1LUtRy.', 'ADMIN')

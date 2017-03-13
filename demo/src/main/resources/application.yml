@@ -1,0 +1,4 @@
+congiguration:
+  projectName: Demo Application
+server:
+   port: 8081
